@@ -15,7 +15,7 @@ typedef struct __PHONE_INFO {
     char addr2[16];
     char city[16];
     char state[2];
-    char zip[5];     
+    char zip[5];
     struct __PHONE_INFO *info;
 } info;
 typedef struct __PHONE_BOOK_ENTRY {
